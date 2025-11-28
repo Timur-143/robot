@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgraded Robot</title>
+    <link rel="stylesheet" href="robot.css">
+</head>
+<body>
+
+<div class="robot">
+    <div class="antenna_base"></div>
+    <div class="antenna_tip_off" id="power"></div>
+
+    <div class="head">
+        <div class="eye_left_off" id="power_eye_left"></div>
+        <div class="eye_right_off" id="power_eye_right"></div>
+        <div class="mouth"></div>
+    </div>
+
+    <div class="body"></div>
+    <div class="body_plate"></div>
+    <div class="light_one_off" id="power1"></div>
+    <div class="light_two_off" id="power2"></div>
+    <div class="light_three_off" id="power3"></div>
+
+    <div class="left_arm_down" id="down_arm"></div>
+    <div class="right_arm_down" id="down_arm2"></div>
+    <div class="left_hand_down" id="down_hand"></div>
+    <div class="right_hand_down" id="down_hand2"></div>
+
+    <div class="left_leg"></div>
+    <div class="right_leg"></div>
+    <div class="left_foot"></div>
+    <div class="right_foot"></div>
+</div>
+
+<div class="remote">
+    <button onclick="powerToggle()">ВКЛ / ВЫКЛ</button>
+    <button onclick="toggleArms()">Поднять / Опустить руки</button>
+    <button onclick="happyBirthday()">Поздравить</button>
+    <button onclick="facts()">GIT</button>
+</div>
+
+<script src="car.js"></script>
+</body>
+</html>
