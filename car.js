@@ -91,7 +91,7 @@ function toggleArms() {
 
 
 function facts() {
-    alert("")
+    alert("https://github.com/Timur-143/robot.git")
 }
 
 function register() {
@@ -113,4 +113,5 @@ function login() {
 function happyBirthday() {
     const userName = localStorage.getItem('username');
     alert("HAPPY BIRTHDAY " + userName);
+
 }
